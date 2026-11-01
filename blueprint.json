@@ -1,7 +1,7 @@
 {
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
 	"meta": {
-		"title": "Reform demo",
+		"title": "ReForm demo",
 		"author": "VLThemes"
 	},
 	"landingPage": "/",
@@ -21,7 +21,7 @@
 		{
 			"step": "setSiteOptions",
 			"options": {
-				"blogname": "Reform demo"
+				"blogname": "ReForm demo"
 			}
 		},
 		{

@@ -109,7 +109,7 @@ $reform_demo_forms = [
 	],
 ];
 
-$reform_demo_content = '<!-- wp:paragraph --><p>Each form below is a Reform form. Send one: Playground has no mail, so the messages go straight to Contact Form → Entries. Open a form in Contact Form → Contact Forms to see how it is made.</p><!-- /wp:paragraph -->' . "\n";
+$reform_demo_content = '<!-- wp:paragraph --><p>Each form below is a ReForm form. Send one: Playground has no mail, so the messages go straight to Contact Form → Entries. Open a form in Contact Form → Contact Forms to see how it is made.</p><!-- /wp:paragraph -->' . "\n";
 
 foreach ( $reform_demo_forms as $title => [ $intro, $template, $config ] ) {
 	$id = wp_insert_post( [
@@ -138,7 +138,7 @@ foreach ( $reform_demo_forms as $title => [ $intro, $template, $config ] ) {
 $reform_demo_page = wp_insert_post( [
 	'post_type'    => 'page',
 	'post_status'  => 'publish',
-	'post_title'   => 'Reform demo',
+	'post_title'   => 'ReForm demo',
 	'post_name'    => 'reform-demo',
 	'post_content' => $reform_demo_content,
 ] );
